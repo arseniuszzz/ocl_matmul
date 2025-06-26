@@ -1,0 +1,20 @@
+#ProfileFileVersion=5.6
+#ProfilerVersion=5.6.0
+#API=OpenCL
+#Application=C:/Users/ocl_user24_0/TEST/skkv-mp-gpu/actions-runner/_work/gpu24-ocl-matmul-arseniuszzz/gpu24-ocl-matmul-arseniuszzz/__test.exe
+#ApplicationArgs=--input test_data/in0.txt --output test_data/out_0.txt --realization 2 --device-type all --device-index 0
+#WorkingDirectory=.
+#Device gfx1010 Platform Vendor=Advanced Micro Devices, Inc.
+#Device gfx1010 Platform Name=AMD Accelerated Parallel Processing
+#Device gfx1010 Platform Version=OpenCL 2.1 AMD-APP (3004.8)
+#Device gfx1010 CLDriver Version=3004.8 (PAL,LC)
+#Device gfx1010 CLRuntime Version=OpenCL 2.0 AMD-APP (3004.8)
+#Device gfx1010 NumberAppAddressBits=64
+#Device gfx1010 Board Name=AMD Radeon RX 5700 XT
+#Device gfx1010 PCIE device id=29471
+#OS Version=Windows 10 Build 10.0.0
+#DisplayName=matmul_2_prof
+#ListSeparator=,
+#ForceSinglePass=False
+Method, ExecutionOrder, ThreadID, CallIndex, GlobalWorkSize, WorkGroupSize, Time, LocalMemSize, VGPRs, SGPRs, ScratchRegs, AllInsts, BranchInsts, CacheMiss, ExecBoundByFlat, ExecBoundByLDS, ExecBoundByTex, ExecTime, FlatInsts, L0CacheHit, L1CacheHit, L2CacheHit, LDSBankConflictRate, LDSBankConflicts, LDSInsts, MemFetchSize, MemFetchSpeedGBps, MemUnitBusy, MemWriteSize, RealOccupancy, SALUBusy, SALUInsts, SFetchInsts, SrcFetchSize, TexInsts, VALUBusy, VALUInsts, VALUInt64Insts, VALUUtilization, WaitOnBarrier, WaitOnSMemLDS, WaitOnVMem, Wavefronts
+matmul_local__k1_d1_gfx1010, 1, 8100, 48, {   2048    2048       1}, {   16    16     1},        13.29512, 2048, 33, 35, 0,      6828.00,       130.00,        25.40,         0.11,        95.50,         0.56,        13.55,       258.00,         0.14,        40.18,        58.84,         0.00,         0.00,      2304.00,   2112421.00,       159.69,        92.75,     16386.50,        78.62,         1.61,       269.00,         5.00,   8590789.48,       256.00,        21.66,      3349.00,       261.00,       100.00,        21.94,         0.43,         0.29,    131072.00

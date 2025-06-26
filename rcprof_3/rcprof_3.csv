@@ -1,0 +1,20 @@
+#ProfileFileVersion=5.6
+#ProfilerVersion=5.6.0
+#API=OpenCL
+#Application=C:/Users/ocl_user24_0/TEST/skkv-mp-gpu/actions-runner/_work/gpu24-ocl-matmul-arseniuszzz/gpu24-ocl-matmul-arseniuszzz/__test.exe
+#ApplicationArgs=--input test_data/in0.txt --output test_data/out_0.txt --realization 3 --device-type all --device-index 0
+#WorkingDirectory=.
+#Device gfx1010:xnack- Platform Vendor=Advanced Micro Devices, Inc.
+#Device gfx1010:xnack- Platform Name=AMD Accelerated Parallel Processing
+#Device gfx1010:xnack- Platform Version=OpenCL 2.1 AMD-APP (3608.0)
+#Device gfx1010:xnack- CLDriver Version=3608.0 (PAL,LC)
+#Device gfx1010:xnack- CLRuntime Version=OpenCL 1.2 AMD-APP (3608.0)
+#Device gfx1010:xnack- NumberAppAddressBits=64
+#Device gfx1010:xnack- Board Name=AMD Radeon RX 5700 XT
+#Device gfx1010:xnack- PCIE device id=29471
+#OS Version=Windows 10 Build 10.0.0
+#DisplayName=matmul_3_prof
+#ListSeparator=,
+#ForceSinglePass=False
+Method, ExecutionOrder, ThreadID, CallIndex, GlobalWorkSize, WorkGroupSize, Time, LocalMemSize, VGPRs, SGPRs, ScratchRegs, Wavefronts, ExecTime, OccupancyWaves, OccupancyPercent, AllInsts, VALUInsts, VALUInt64Insts, SALUInsts, BranchInsts, SFetchInsts, TexFetchInsts, TexWriteInsts, FlatFetchInsts, FlatWriteInsts, LDSInsts, VALUUtilization, VALUBusy, SALUBusy, WaitOnBarrier, WaitOnVMem, WaitOnSMemLDS, ExecBoundByTex, ExecBoundByFlat, ExecBoundByLDS, LDSBankConflicts, LDSBankConflictRate, SrcFetchSize, MemFetchSize, MemFetchSpeedGBps, MemWriteSize, MemUnitBusy, L0CacheHit, L1CacheHit, L2CacheHit, CacheMiss
+matmul_vector__k1_d1_gfx1010:xnack-, 1, 13200, 48, {    512    2048       1}, {    8    32     1},        10.63052, 8192, 46, 22, 0,     32768.00,        10.05,        15.55,        77.76,     12074.00,      8788.00,       132.00,       141.00,        66.00,         5.00,       128.00,         0.00,       128.00,         1.00,      2688.00,       100.00,        18.01,         0.28,        14.36,         0.05,         0.04,         0.02,         0.00,        99.22,      2048.00,        16.00,   2091425.69,   1078981.50,       109.92,     16387.41,        47.78,         0.02,        21.41,        34.34,        51.59
